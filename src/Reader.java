@@ -11,8 +11,8 @@ public class Reader {
     boolean dead = false;
     boolean won = false;
 
-    ArrayList<String> words = new ArrayList<>(Arrays.asList("GEEKS", "CATS", "AMBULANCE"));
-    //Ordlista, orkar inte skriva så mycket ord. Men detta bevisar att det funkar i princip!
+    ArrayList<String> words = new ArrayList<>(Arrays.asList("AMBULANCE", "ATTORNEY", "ARSON", "ANTAGONIST" ,"ASTRONAUT", "BATTERY", "BITCH", "BROKEN","BATCHELOR", "CATS", "CANDLE", "CLOUD", "CRANBERRY", "CHEF", "DOCTOR", "DRAGQUEEN", "DEATH", "DURESS", "EGG", "ENVY", "EARRING", "EMBASSY", "FALLACY", "FEARFUL", "FOUNDATION", "FUGITIVE", "GEEKS", "GUMBALL", "GAY", "GENIE", "GINGER", "HABIT", "HERO", "HISTORY", "HORROR", "IGLOO", "ISOTOPE", "IRRATIONAL", "INSTRUMENT", "JUSTICE", "JEALOUS", "JOKE", "JANITOR", "KILLER", "KNOWLEDGE", "KINDNESS", "KOALA", "LAWYER", "LIGAMENT", "LUCKY", "LEGGINGS", "MOTHER", "MERMAN", "MILKSHAKE", "MUSHROOM", "NIGHTMARE", "NOOSE", "NARCOLEPSY", "NURTURE", "OTTER", "OLIVE", "OPINION", "OASIS", "PLUMBER", "PROSECUTOR", "POTATO", "PISTOL", "QUESTION", "RANGER", "RIGHTEOUS", "ROLEPLAY", "RING", "SPOTLIGHT", "SISTER", "SEASHELL", "SCYTHE", "TOFFEE", "TRUTH", "TYRANT", "TIGER", "URGENT", "UMBRELLA", "UNICORN", "UNDERTAKER", "VINTAGE", "VULTURE", "VOICE", "VETERINARIAN",  "WINDMILL", "WORRIED", "WIZARD", "WHISTLE", "XYLOPHONE", "YOUTH", "YESTERDAY", "YARN", "YANKEE", "ZEBRA", "ZEPPELIN", "ZEALOT"));
+    //Ordlista
     Random rand = new Random();
     int upperbound = 3;
     int int_random = rand.nextInt(upperbound);
