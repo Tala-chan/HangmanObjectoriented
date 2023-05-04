@@ -86,6 +86,7 @@ public class manField extends JPanel {
         }
 
         if(reader.dead==true){
+            g.drawString(reader.word.replace("", " ").trim(),380,127);
             g.drawString("GAME OVER",380,150);
         }
         if(reader.won==true){
